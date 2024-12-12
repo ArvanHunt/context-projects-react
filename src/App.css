@@ -1,3 +1,9 @@
+body 
+{
+  background-color: rgba(1, 1, 53, 0.862);
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

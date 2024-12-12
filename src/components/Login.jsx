@@ -17,21 +17,23 @@ function Login() {
 
   return (
     <div>
-        <h2>Login</h2>
-        <input type="text"
+        <h2 className='text-7xl m-9 p-6 text-green-600 font-mono'>Login Interface using context</h2>
+        <input className='p-5 m-5' type="text"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder='username' />
-        <input type="text" 
+        <input className='p-5 m-5' type="text" 
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         placeholder='password' />
-        <button onClick={handleSubmit}>submit</button>
+        <button className='border-2 border-green-600 p-5 m-5 text-green-600' onClick={handleSubmit}>submit</button>
     </div>
   )
 }
 
 export default Login
+
+
 
 
 

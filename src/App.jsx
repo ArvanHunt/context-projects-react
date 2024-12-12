@@ -12,8 +12,9 @@ function App() {
   return (
     <>
     <UserContextProvider>
-      <h1>Namaste</h1>
+      <h1 className='text-5xl m-9 p-6 text-green-600 font-mono'>Namaste</h1>
       <Login /> 
+      {" "}
       <Profile />
     </UserContextProvider>
     </>
